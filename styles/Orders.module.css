@@ -34,3 +34,47 @@
     margin-top: 20px;
     cursor: not-allowed;
 }
+.table{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.row:last-child{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.done{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inProgress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: inProgress 1s ease infinite alternate;
+}
+
+@keyframes inProgress{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.unDone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.3;
+}
+
+.unDone .checkedIcon, .inProgress .checkedIcon{
+    display: none;
+}
+
+
+
+
