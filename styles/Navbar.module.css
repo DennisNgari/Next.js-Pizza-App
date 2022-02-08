@@ -53,6 +53,7 @@
     justify-content: space-around;
     list-style: none;
     color: #fff;
+    cursor: pointer;
 }
 
 .listItem{
@@ -62,6 +63,7 @@
 
 .cart{
     position: relative;
+    cursor: pointer;
 }
 .counter{
     display: flex;

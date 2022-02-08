@@ -1,5 +1,6 @@
 .container{
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
+    height: 50vh;
     background-color: #222;
     display: flex;
 }
@@ -7,6 +8,7 @@
     flex: 1;
     position: relative;
     display: flex;
+    height: 100%;
 }
 .item:last-child{
     flex: 2;

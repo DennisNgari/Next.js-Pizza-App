@@ -6,11 +6,18 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin: 10px;
 }
+
 .title{
     font-size:18px ;
     font-weight: bold;
     color: #d1411e;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .price{
     font-size:18px ;
@@ -20,7 +27,14 @@
 .desc{
     text-align: center;
     color: #777;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+
 
 @media screen and (max-width:480px) { 
    .container{
